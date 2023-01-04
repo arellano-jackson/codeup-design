@@ -3,7 +3,10 @@
     width: auto;
 }
 body{
-    background-color: #F8F9FA;
+    background-color: #F0F0F0;
+}
+.navbar{
+    background-color: #F0F0F0 !important;
 }
 .header-font{
     font-family: 'Anton', sans-serif;
@@ -15,3 +18,31 @@ body{
     font-family: 'Anton', sans-serif;
     font-size: 30px;
 }
+
+.circle{
+    border-radius: 50%;
+    border: 10px solid white;
+    color: white;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.red{
+    padding: 25px 20px;
+    background-color: #E6563B;
+}
+
+.orange{
+    padding: 25px 15px;
+    background-color: #EB9D3A;
+}
+.green{
+    padding: 25px 15px;
+    background-color: #7CB06C;
+}
+
+.teal{
+    padding: 25px 25px;
+    background-color: #00ABA9;
+}
+
