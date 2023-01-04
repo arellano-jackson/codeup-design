@@ -1,0 +1,17 @@
+.site-logo{
+    height: 40px;
+    width: auto;
+}
+body{
+    background-color: #F8F9FA;
+}
+.header-font{
+    font-family: 'Anton', sans-serif;
+}
+.header-size{
+    font-size: 50px;
+}
+.sub-header{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
