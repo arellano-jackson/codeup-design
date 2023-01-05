@@ -8,6 +8,17 @@ body{
 .navbar{
     background-color: #F0F0F0 !important;
 }
+
+.link-size{
+    /*font-family: 'Anton', sans-serif;*/
+    opacity: 70%;
+    font-size: 13px;
+}
+
+.link-size-codeup{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
 .header-font{
     font-family: 'Anton', sans-serif;
 }
@@ -21,7 +32,7 @@ body{
 
 .circle{
     border-radius: 50%;
-    border: 10px solid white;
+    border: 7px solid white;
     color: white;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
@@ -46,14 +57,15 @@ body{
     background-color: #00ABA9;
 }
 .work-img{
-    margin: 0 !important;
-    padding: 0 !important;
+    /*margin: 0 !important;*/
+    /*padding: 0 !important;*/
     border: 5px solid #E6E6E6;
+
 }
 .last-img{
     height: 75px;
     width: 75px;
-    border: 5px solid #E6E6E6;
+    border: 3px solid #E6E6E6;
     border-radius: 5%;
 }
 .card{
@@ -63,10 +75,11 @@ body{
 /*.card-text{*/
 /*    margin: 2px;*/
 /*}*/
+
 .last-text{
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .small-circle{
