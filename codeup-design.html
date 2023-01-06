@@ -13,11 +13,14 @@
 </head>
 <body>
 
-<!--***** nav bar *****-->
+<!--***** nav bar 1*****-->
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex d-lg-none">
     <div class="container-fluid">
-        <a class="navbar-brand fw-light fs-5" href="#"><img src="assets/logo.png" id="site logo" alt="logo"
+
+
+        <div class="col-12 d-flex justify-content-between">
+        <a class=" col-6 navbar-brand fw-light fs-5" href="#"><img src="assets/logo.png" id="site logo" alt="logo"
                                                             class="site-logo"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,6 +28,8 @@
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        </div>
+
 
         <div class="col-1 ms-1">
             <a class="nav-link link-size-codeup text-nowrap d-none d-lg-block" href="#">codeup design</a>
@@ -47,7 +52,46 @@
         </div>
     </div>
 </nav>
-<!--***** end nav bar *****-->
+<!--***** end nav bar 1 *****-->
+
+<!--***** nav bar 2 ******-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex d-none d-lg-block">
+    <div class="container-fluid">
+
+            <a class=" navbar-brand fw-light fs-5" href="#"><img src="assets/logo.png" id="site logo" alt="logo"
+                                                                       class="site-logo"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        <div class="col-1 ms-1">
+            <a class="nav-link link-size-codeup text-nowrap d-none d-lg-block" href="#">codeup design</a>
+        </div>
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link link-size" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-size" href="#">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-size" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-size" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--***** end nav bar 2*****-->
+
 
 <div class="container page-wrapper">
 
@@ -87,11 +131,11 @@
     <div class="container d-flex justify-content-center">
         <div class="row d-flex">
 
-            <div class="col-12-md col-lg-8">
+            <div class="col-lg-8">
                 <div class="container">
                     <div class="row">
                         <section class="text-center mb-5">SELECTED WORK</section>
-                        <div class="card col-12 col-md-6 col-lg-6 mb-sm-2 mb-md-block mt-lg-5 mt-xl-0">
+                        <div class="card col-12 col-md-6 col-lg-6 mb-2 mb-md-block mt-lg-5 mt-xl-0">
                             <img src="assets/images/apple-ipad.jpg" class="work-img mt-lg-4 mt-xl-0" alt="apples on computer">
                             <div class="row card-body p-1 ">
                                 <div class="col-6 col-lg-6 text-nowrap card-text mb-lg-3">FEATURE PRODUCT</div>
@@ -105,7 +149,7 @@
 
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 mb-sm-2 mb-md-block mt-lg-5 mt-xl-0">
+                        <div class="card col-12 col-md-6 mb-2 mb-md-block mt-lg-5 mt-xl-0">
                             <img src="assets/images/macbook.jpg" class="work-img mt-lg-4 mt-xl-0" alt="macbook">
                             <div class="row card-body p-1 ">
                                 <div class="col-6 col-lg-6 text-nowrap card-text mb-lg-3">FEATURE PRODUCT</div>
@@ -117,7 +161,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 mb-sm-2 mb-md-block mt-lg-5 mt-xl-0">
+                        <div class="card col-12 col-md-6 mb-2 mb-md-block mt-lg-5 mt-xl-0">
                             <img src="assets/images/man.jpg" class="work-img" alt="man with glasses">
                             <div class="row card-body p-1 ">
                                 <div class="col-6 col-lg-6 text-nowrap card-text mb-lg-3">FEATURE PRODUCT</div>
@@ -129,7 +173,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card col-12 col-md-6 mb-sm-2 mb-md-block mt-lg-5 mt-xl-0">
+                        <div class="card col-12 col-md-6 mb-2 mb-md-block mt-lg-5 mt-xl-0">
                             <img src="assets/images/security.jpg" class="work-img" alt="security">
                             <div class="row card-body p-1 ">
                                 <div class="col-6 col-lg-6 text-nowrap card-text mb-lg-3">FEATURE PRODUCT</div>
@@ -145,7 +189,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 d-flex d-sm-none d-lg-block">
+            <div class="col-lg-4 d-flex d-none d-lg-block">
                 <div class="container">
                     <div class="row">
 
